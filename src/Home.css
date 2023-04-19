@@ -1,0 +1,20 @@
+body {
+  color: white;
+}
+.event {
+  width: 80%;
+}
+.title {
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+.home {
+  margin-top: 2%;
+  text-align: center;
+}
+.paragraph {
+  text-align: center;
+}
+.about {
+  text-align: center;
+}
