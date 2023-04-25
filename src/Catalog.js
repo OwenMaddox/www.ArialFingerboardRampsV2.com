@@ -13,7 +13,11 @@ function Catalog() {
       <div className="container text-center">
         <div className="row">
           <div className="col">
-            <ProductCard img={ledge} name="2 Step Ledge"></ProductCard>
+            <ProductCard
+              img={ledge}
+              name="2 Step Ledge"
+              link="/Products/TwoStepLedge"
+            ></ProductCard>
           </div>
           <div className="col">
             <ProductCard img={Rail} name="Standard Rail "></ProductCard>

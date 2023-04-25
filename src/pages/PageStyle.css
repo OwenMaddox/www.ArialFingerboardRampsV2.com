@@ -11,12 +11,10 @@
 }
 img {
   width: 100%;
-  height: 80%;
   border-radius: 5px;
   background-color: white;
 }
 .imgholder {
-  background-color: white;
   border-radius: 5px;
 }
 button {

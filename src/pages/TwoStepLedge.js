@@ -1,19 +1,19 @@
 import "./PageStyle.css";
-import KickerWithRailImg from "../images/KickerWithRail.png";
-function KickerWithRail() {
+import Ledge from "../images/ledge.png";
+function TwoStepLedge() {
   return (
     <div className="margin size">
       <div className="container text-center">
         <div className="row">
           <div className="col imgholder">
-            <img src={KickerWithRailImg} alt="Kicker With Rail" />
+            <img src={Ledge} alt="Kicker With Rail" />
           </div>
           <div className="col">
             <div className="card txt size">
               <div className="card-body">
-                <h1 className="card-title cardtxt">Kicker With Rail</h1>
-                <p className="card-text">$12 + 12$ Shipping</p>
-                <p>$24 Total</p>
+                <h1 className="card-title cardtxt">Two Step Ledge</h1>
+                <p className="card-text">$10 + 12$ Shipping</p>
+                <p>$22 Total</p>
                 <form
                   target="paypal"
                   action="https://www.paypal.com/cgi-bin/webscr"
@@ -23,7 +23,7 @@ function KickerWithRail() {
                   <input
                     type="hidden"
                     name="hosted_button_id"
-                    value="UMXGJJAEDTDNL"
+                    value="Q64WF5S2RNZZC"
                   />
 
                   <button
@@ -37,8 +37,8 @@ function KickerWithRail() {
                   </button>
                 </form>
 
-                <p className="spacing">8 x 4 inch wood Kicker with a smooth</p>
-                <p>1 inch tall rail on the side</p>
+                <p className="spacing">8 x 4 inch wood two step ledge</p>
+                <p>perfect for grinds</p>
               </div>
             </div>
           </div>
@@ -47,4 +47,4 @@ function KickerWithRail() {
     </div>
   );
 }
-export default KickerWithRail;
+export default TwoStepLedge;
