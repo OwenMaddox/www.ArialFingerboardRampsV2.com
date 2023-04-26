@@ -24,7 +24,9 @@ function Home() {
           </div>
         </div>
       </div>
-
+      <button type="button" class="btn btn-primary btn-lg title">
+        View All
+      </button>
       <div className="about">
         <h1 className="title">Arial Fingerboard Ramps</h1>
         <h2>
