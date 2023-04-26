@@ -3,10 +3,11 @@ import ProductCard from "./components/ProductCard";
 import KickerWithRail from "./images/KickerWithRail.png";
 import MegaKickerGap from "./images/MegaKickerGap.jpg";
 import Event from "./images/Event.jpg";
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="home">
-      <h1>Featured Ramps</h1>
+      <h1 className="title">Featured Ramps</h1>
       <div className="container text-center">
         <div className="row">
           <div className="col">
@@ -24,9 +25,12 @@ function Home() {
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-primary btn-lg title">
-        View All
-      </button>
+      <Link to="/Catalog">
+        <button type="button" class="btn btn-primary btn-lg title marginTop">
+          View All
+        </button>
+      </Link>
+
       <div className="about">
         <h1 className="title">Arial Fingerboard Ramps</h1>
         <h2>

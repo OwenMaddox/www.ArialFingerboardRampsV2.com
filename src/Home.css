@@ -6,7 +6,10 @@ body {
 }
 .title {
   margin-bottom: 15px;
-  font-weight: 800;
+  font-weight: 700;
+}
+.marginTop {
+  margin-top: 4%;
 }
 .home {
   margin-top: 2%;

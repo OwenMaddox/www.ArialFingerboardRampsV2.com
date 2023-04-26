@@ -9,7 +9,7 @@ import ledge from "./images/ledge.png";
 function Catalog() {
   return (
     <div className="catalog">
-      <h1>Products</h1>
+      <h1 className="title">Products</h1>
       <div className="container text-center">
         <div className="row">
           <div className="col">
@@ -24,8 +24,8 @@ function Catalog() {
           </div>
         </div>
       </div>
-
-      <div className="container text-center">
+      <br className="card"></br>
+      <div className="container text-center ">
         <div className="row">
           <div className="col">
             <ProductCard img={Kicker} name="Kicker"></ProductCard>
@@ -38,8 +38,8 @@ function Catalog() {
           </div>
         </div>
       </div>
-
-      <div className="container text-center">
+      <br className="card"></br>
+      <div className="container text-center ">
         <div className="row">
           <div className="col">
             <ProductCard
