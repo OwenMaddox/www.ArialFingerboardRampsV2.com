@@ -24,7 +24,7 @@ function Catalog() {
           </div>
         </div>
       </div>
-      <br className="card"></br>
+      <br className="cardSpace"></br>
       <div className="container text-center ">
         <div className="row">
           <div className="col">
@@ -38,7 +38,7 @@ function Catalog() {
           </div>
         </div>
       </div>
-      <br className="card"></br>
+      <br className="cardSpace"></br>
       <div className="container text-center ">
         <div className="row">
           <div className="col">
